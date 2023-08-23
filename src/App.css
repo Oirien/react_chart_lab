@@ -1,0 +1,28 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h5.entryItem {
+    margin: 0px;
+    padding: 0px;
+}
+
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.songname {
+    font-weight: bolder;
+}
+
+.entryList {
+    display: flex;
+}
+
+.entryItem__paragraph {
+    max-width: 600px;
+}
