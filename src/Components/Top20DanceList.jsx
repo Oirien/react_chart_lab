@@ -14,7 +14,7 @@ const Top20DanceList = () => {
     return (
         <>
             <h1>UK iTunes Dance Top 20</h1>
-            <ul>
+            <ul className="entryList">
                 {topDance20.map((song, i) => (
                     <>
                         <li key={i} className="entryItem">

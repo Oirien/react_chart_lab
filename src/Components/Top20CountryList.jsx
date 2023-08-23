@@ -14,7 +14,7 @@ const Top20CountryList = () => {
     return (
         <>
             <h1>UK iTunes Country Top 20</h1>
-            <ul>
+            <ul className="entryList">
                 {topCountry20.map((song, i) => (
                     <>
                         <li key={i} className="entryItem">
